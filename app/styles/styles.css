@@ -1,0 +1,57 @@
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+#nav-main {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#nav-main .tabs {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.jee-countries {
+  margin: 30px;
+}
+.menu {
+  display: block;
+  margin: 30px;
+}
+.menu a {
+  display: inline;
+}
+.menu-list > ul {
+  padding-left: 12px;
+}
+.menu-list > li {
+  padding: .5em .75em;
+}
+.menu-label {
+  margin-top: 1em;
+  margin-bottom: 0!important;
+}
+.menu-label:not(:only-child) {
+  cursor: pointer;
+}
+.menu-label:not(:only-child):after {
+  display: inline-block;
+  content: '';
+  width: 0; 
+  height: 0; 
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent; 
+  border-bottom: 3px solid #aaa;
+  margin-bottom: 3px;
+  margin-left: 3px;
+}
+.menu-label.collapsed:not(:only-child):after {
+  border-top: 3px solid #aaa;
+  border-bottom: 0;
+}
+.jee-contents {
+  padding-top: 35px;
+}
